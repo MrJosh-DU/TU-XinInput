@@ -9,4 +9,4 @@ Copy the json file contents and paste it into the PGM-Board
 
 The parameters are:
 - amount: the amount to keep
-- itemID: a list of Item-IDs which to transfer -- NOTE! Please do NOT remove the curly brackets, `{262147665, 299255727, 3724036288, 4234772167}` --> RIGHT |  `262147665, 299255727, 3724036288, 4234772167` --> WRONG
+- itemID: a list of Item-IDs which to transfer -- NOTE! Please do NOT remove the curly brackets <br /> `{262147665, 299255727, 3724036288, 4234772167}` --> RIGHT |  `262147665, 299255727, 3724036288, 4234772167` --> WRONG
