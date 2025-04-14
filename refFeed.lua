@@ -1,5 +1,6 @@
 local amount = 30000 --export
 local itemID = {262147665, 299255727, 3724036288, 4234772167} --export
+local timeOffset = 0 --export
 
 local content
 local pId = 1
@@ -44,7 +45,7 @@ else
       system.showScreen(true)
       unit.setTimer('screenA3', 3)
       input.updateContent()
-      unit.setTimer('update', 30)
+      unit.setTimer('update', 30 + timeOffset)
   end
 end
 
